@@ -5,7 +5,7 @@
 * { @include box-sizing(border-box); }
 html, button, input, select, textarea { color:#222; }
 html { font-size: 1em; line-height: 1.4;}
-body { font-family: $sans-serif; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
+body { font-family: $sans-serif; }
 ::-moz-selection { background: #b3d4fc; text-shadow: none; }
 ::selection { background: #b3d4fc; text-shadow: none; }
 hr { display: block; border: 0; border-top: 1px solid #ccc; height: 1px; margin: 1em 0; padding: 0; }
