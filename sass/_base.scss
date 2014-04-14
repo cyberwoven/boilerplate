@@ -8,7 +8,7 @@ body { font-family: $sans-serif; }
 ::-moz-selection { background: #b3d4fc; text-shadow: none; }
 ::selection { background: #b3d4fc; text-shadow: none; }
 hr { display: block; border: 0; border-top: 1px solid #ccc; height: 1px; margin: 1em 0; padding: 0; }
-audio, canvas, video { vertical-align: middle; }
+audio, canvas, img, svg, video { vertical-align: middle; }
 img { display:block; margin:0 auto; vertical-align:middle; max-width:100%; }
 fieldset { border: 0; margin: 0; padding: 0; }
 textarea { resize: vertical; }
