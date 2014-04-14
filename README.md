@@ -16,6 +16,24 @@ Front-End boilerplate for new web projects using SASS and Compass.
 * "Delete-key friendly." Strip out parts you don't need.
 
 
+### April 14, 2014
+
+* Use `<!doctype html>` instead of `<!DOCTYPE html>`
+  ([#e558502](https://github.com/cyberwoven/boilerplate/commit/e55850201f365562abb27642292487b5b30af308)).
+* Update to Normalize.css 3.0.1.
+  ([#2f1bc76](https://github.com/cyberwoven/boilerplate/commit/2f1bc76ba2244a1d02beb70c989a2111caa83e27)).
+* Update to jQuery 1.11.0.
+* Remove default foreground color from form elements
+  ([#a36f14b](https://github.com/cyberwoven/boilerplate/commit/a36f14bb0feeccc569a4bd607d713eb497271b25)).
+* Remove default margin from print styles
+  ([#21df5ca](https://github.com/cyberwoven/boilerplate/commit/21df5ca436795b7938940193692973ea82e92f6c)).
+* Remove image replacement helper class `.ir`
+  ([#b21e6c2](https://github.com/cyberwoven/boilerplate/commit/b21e6c2fc3bd6a653539606b735a17dc6253b1c1)).
+* Add vertical centering for `svg`
+  ([#ee0424d](https://github.com/cyberwoven/boilerplate/commit/ee0424d36a20fd8f8ff3c254db8f078b129d24fb)).
+ * Remove IE conditional classes
+  ([#ba0cee5](https://github.com/cyberwoven/boilerplate/commit/ba0cee5e70b7378087b991239afb288ae56bd18f)).
+
 ### March 5, 2014
 
 * Add mixin for font-smoothing, remove defaults
