@@ -31,7 +31,7 @@ Front-End boilerplate for new web projects using SASS and Compass.
   ([#b21e6c2](https://github.com/cyberwoven/boilerplate/commit/b21e6c2fc3bd6a653539606b735a17dc6253b1c1)).
 * Add vertical centering for `svg`
   ([#ee0424d](https://github.com/cyberwoven/boilerplate/commit/ee0424d36a20fd8f8ff3c254db8f078b129d24fb)).
- * Remove IE conditional classes
+* Remove IE conditional classes
   ([#ba0cee5](https://github.com/cyberwoven/boilerplate/commit/ba0cee5e70b7378087b991239afb288ae56bd18f)).
 
 ### March 5, 2014
