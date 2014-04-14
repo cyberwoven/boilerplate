@@ -21,9 +21,6 @@ $mq-large:  64em;
 	Utilities
 ========================================================================== */
 
-// Image Replacement: http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement
-@mixin ir { overflow: hidden; text-indent: 100%; white-space: nowrap; }
-
 // Contain Floats: nicolasgallagher.com/micro-clearfix-hack
 @mixin clearfix { zoom: 1;
 	&:before, &:after { content: ""; display: table; }
