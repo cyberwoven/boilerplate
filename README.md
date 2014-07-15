@@ -16,6 +16,15 @@ Front-End boilerplate for new web projects using SASS and Compass.
 * "Delete-key friendly." Strip out parts you don't need.
 
 
+### July 15, 2014
+
+* Add `timeline` and `timelineEnd` to the list of `console` methods
+  ([#640611a](https://github.com/cyberwoven/boilerplate/commit/640611a6dd797a4a6e8431511445828ff7ab3805)).
+* Add `lang=""` to `<html>`
+  ([#1f2fb9a](https://github.com/cyberwoven/boilerplate/commit/1f2fb9a30b8561b5d738099ce9b5f3fd69dcd13f)).
+* Update to jQuery 1.11.1
+  ([#8c0111d](https://github.com/cyberwoven/boilerplate/commit/8c0111d6cb8bc149f5cd8aa21f61c653cd4af7df)).
+
 ### April 14, 2014
 
 * Use `<!doctype html>` instead of `<!DOCTYPE html>`
