@@ -15,6 +15,18 @@ Front-End boilerplate for new web projects using SASS and Compass.
 * Mixins for inline media queries, gradients, placeholders, and more.
 * "Delete-key friendly." Strip out parts you don't need.
 
+### October 28, 2014
+
+* New partials configuration
+  ([#f59cf31](https://github.com/cyberwoven/boilerplate/commit/f59cf31ae54c2aaf6c0d1eba6cea292c2daa0502)).
+* Add vertical centering for `iframe`
+  ([#dab63b5](https://github.com/cyberwoven/boilerplate/commit/dab63b5ce50b8261d7bf6fca65b23bb0c6cb65e7)).
+* Updated Firefox placeholder mixin
+  ([#0bf58f0](https://github.com/cyberwoven/boilerplate/commit/0bf58f0c6e1c7cef77f2413fe0928e3f86674ebc)).
+* Rename Apple touch icon to apple-touch-icon.png
+  ([#2c675eb](https://github.com/cyberwoven/boilerplate/commit/2c675ebccc63b1d5062390a9d0a6af252382dda1)).
+* Updated BrowseHappy prompt to be site-agnostic
+  ([#f8f035f](https://github.com/cyberwoven/boilerplate/commit/f8f035fcc8e16ca4c865e50b7e608d2bd781ed84)).
 
 ### July 15, 2014
 
