@@ -43,7 +43,6 @@ textarea {
 
 .hidden {  // Hide + Remove from DOM & Flow
 	display: none !important;
-	visibility: hidden;
 }
 
 .visuallyhidden {  // Hide + Remove from Flow + Keep in DOM
