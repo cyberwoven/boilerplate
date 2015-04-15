@@ -15,6 +15,16 @@ Front-End boilerplate for new web projects using SASS and Compass.
 * Mixins for inline media queries, gradients, placeholders, and more.
 * "Delete-key friendly." Strip out parts you don't need.
 
+### April 15, 2015
+
+* Remove "visibility: hidden" from ".hidden" 
+  ([#27972ef](https://github.com/cyberwoven/boilerplate/commit/27972efe983502c07924b80229b59cf73a37ffda)).
+* Update to Normalize.css 3.0.3 
+  ([#6d395ea](https://github.com/cyberwoven/boilerplate/commit/6d395eabd8b2e7db007daff375a3aca35879a390)).
+* Use `<meta http-equiv="x-ua-compatible" content="ie=edge">` instead of `<meta http-equiv="X-UA-Compatible" content="IE=edge">`
+  ([#5b0f2e1](https://github.com/cyberwoven/boilerplate/commit/5b0f2e167e707c7478d4d6930ea9c3d73b1d8488)).
+
+
 ### October 28, 2014
 
 * New partials configuration
