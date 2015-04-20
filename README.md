@@ -15,6 +15,14 @@ Front-End boilerplate for new web projects using SASS and Compass.
 * Mixins for inline media queries, gradients, placeholders, and more.
 * "Delete-key friendly." Strip out parts you don't need.
 
+### April 20, 2015
+
+* Remove deprecated PageSlide plugin 
+  ([#acda2a3](https://github.com/cyberwoven/boilerplate/commit/acda2a34705e2050f41a713525cb55adbef46b07)).
+* Update FlexSlider to v2.4.0 
+  ([#9c0c981](https://github.com/cyberwoven/boilerplate/commit/9c0c981ad6f0879602f5fec5696366bd108bfa04)).
+
+
 ### April 15, 2015
 
 * Remove "visibility: hidden" from ".hidden" 
