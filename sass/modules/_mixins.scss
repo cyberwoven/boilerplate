@@ -9,18 +9,9 @@
 }
 
 // Media Queries
-$no-mq-support: false !default;
-$serve-to-nomq-max-width:$desktop-small;
-
 @mixin breakpoint($point) {
-	@if $no-mq-support{
-	    @if $point <= $serve-to-nomq-max-width {
-	      @content;
-	    }
-	} @else {
-		@media ('min-width:' + $point) {
-	    	@content;
-	    }
+	@media ('min-width:' + $point) {
+    	@content;
 	}
 }
 
