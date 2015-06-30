@@ -21,16 +21,15 @@
 <!--[if lt IE 8]>
     <p class="browserupgrade">You are using an <strong>unsupported</strong> browser. Please <a href="http://www.whatbrowser.org/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
-<a href="#mainContent" class="visuallyhidden">Skip to content</a>
-
 
 <header class="siteHeader" role="banner">
+    <a href="#mainContent" class="visuallyhidden">Skip to content</a>
     <h1 class="logo"><a href="/">Website Title</a></h1>
 
     <a href="#siteNavigation" class="menuToggle">Menu</a>
-    <nav role="navigation" class="siteNavigation" id="siteNavigation">
+    <nav role="navigation" class="siteNavigation" id="siteNavigation" aria-label="Primary">
 
-        <h1 class="visuallyhidden">Navigation</h1>
+        <h4 class="visuallyhidden">Navigation</h4>
         <ul class="mainNavigation">
             <li><a href="">About</a></li>
             <li><a href="">Programs</a></li>
@@ -49,8 +48,8 @@
 
         <div class="siteSearch">
             <label for="search">Search</label>
-            <input type="text" name="search" placeholder="Search Terms" class="siteSearchInput" />
-            <input type="submit" value="Search" class="siteSearchSubmit" />
+            <input type="text" id="search" name="search" placeholder="Search Terms" class="siteSearchInput">
+            <input type="submit" value="Search" class="siteSearchSubmit">
         </div> <!-- /.siteSearch -->
 
     </nav> <!-- /.siteNavigation -->
@@ -58,10 +57,9 @@
 </header> <!-- /.siteHeader -->
 
 
+<section class="mainContent" id="mainContent" role="main">
 
-<section class="mainContent">
-
-    <div class="mainColumn" id="mainContent" role="main">
+    <div class="mainColumn">
         <h1 class="pageTitle">About</h1>
         <p class="intro">This is an intro paragraph. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod.</p>
         <p>This is a paragraph. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
@@ -101,7 +99,7 @@
             <li>List item 3</li>
         </ol>
         <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Donec sed odio dui. Sed posuere consectetur est at lobortis. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor.</p>
-        <blockquote><strong>Blockquote</strong>: Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur.</blockquote>
+        <blockquote>Blockquote: Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur.</blockquote>
         <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod.</p>
         
         <table>
@@ -131,8 +129,8 @@
     </div> <!-- /.mainColumn -->
 
     <div class="sidebar">
-        <nav class="sectionNavigation" role="navigation">
-            <h1><a href="">About</a></h1>
+        <nav class="sectionNavigation" role="navigation" aria-label="Secondary">
+            <h2><a href="">About</a></h2>
             <ul>
                 <li><a href="">Offices</a></li>
                 <li><a href="">Publications</a></li>
@@ -148,7 +146,7 @@
         </nav>
 
         <aside class="sidebarAside">
-            <h1><a href="">Staff Directory</a></h1>
+            <h2><a href="">Staff Directory</a></h2>
             <p>Contact CompanyName for more information.</p>
             <a href="" class="asideLink">Read More &raquo;</a>
         </aside>
@@ -163,9 +161,9 @@
 
     <div class="newsletterSignup">
         <p>Sign up for our newsletter.</p>
-        <label for"email">Email Address</label>
-        <input type="email" name="email" class="newsletterInput" placeholder="Email Address" />
-        <input type="submit" value="Submit" class="newsletterSubmit" />
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" class="newsletterInput" placeholder="Email Address">
+        <input type="submit" value="Submit" class="newsletterSubmit">
     </div>
 
     <ul class="footerNav">

@@ -1,19 +1,30 @@
 boilerplate
 ===========
 
-Front-End boilerplate for new web projects using SASS and Compass.
+Front-End boilerplate for new web projects using SASS.
 
 ## Features
 
-* Based on [HTML5 Boilerplate](http://html5boilerplate.com) with our own opinionated enhancements.
+* Based on [HTML5 Boilerplate](http://html5boilerplate.com) with our own opinionated additions.
 * HTML5 ready. Use the new elements with confidence.
-* Cross-browser compatible (Chrome, Firefox, IE8+, Opera, Safari).
+* Cross-browser compatible (Chrome, Firefox, IE9+, Opera, Safari).
 * Includes [Normalize.css](http://necolas.github.com/normalize.css/) for CSS
   normalizations and common bug fixes.
 * The latest [jQuery](http://jquery.com/) via CDN, with a local fallback.
-* Includes starter SCSS partials, config.rb file
-* Mixins for inline media queries, gradients, placeholders, and more.
+* Includes starter SCSS partials and frequently-used features.
+* Mixins for inline media queries, placeholders, and more.
 * "Delete-key friendly." Strip out parts you don't need.
+
+### June 29, 2015
+
+* Remove Compass dependencies
+* Switch to libsass for Sass compliation.
+* Add Bourbon mixin library ([http://bourbon.io/docs/]http://bourbon.io/docs/).
+* Update mixins to be more extensible.
+* Include vertical rhythm replacement mixins.
+* Update HTML for increased accessibility.
+* Include default CodeKit settings file.
+
 
 ### April 20, 2015
 

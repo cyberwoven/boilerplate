@@ -3,18 +3,20 @@
 ========================================================================== */
 
 // Fonts
-$sans-serif: Arial, Helvetica, sans-serif;
-$serif: "Times New Roman", serif;
+$sans-serif:  Arial, Helvetica, sans-serif;
+$serif:       "Times New Roman", serif;
 
 // Colors
-$cyb-blue:     #0e5088;
-$cyb-green:    #0d7267;
-$cyb-orange:   #e5562f;
+$blue:        #0e5088;
+$green:       #0d7267;
+$orange:      #e5562f;
+
+// Color Assignments
+$link-color:  $blue;
 
 // Media Query Breakpoints
-$mobile-small: 15em; // 240px
-$mobile-large: 20em; // 320px
-$tablet-small: 30em; // 480px
-$tablet-large: 48em; // 768px
-$desktop-small: 64em; // 1024px
-$desktop-large: 80em; // 1280px
+$xsmall:      20em;  // 320px
+$small:       30em;  // 480px
+$medium:      48em;  // 768px
+$large:       64em;  // 1024px
+$xlarge:      80em;  // 1280px

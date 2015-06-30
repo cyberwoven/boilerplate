@@ -2,9 +2,6 @@
 	Typography
 ========================================================================== */
 
-@import "compass/typography/vertical_rhythm";
-@import "compass/layout/grid-background";
-
 $base-font-size: 16px;
 $base-line-height: 24px;
 $round-to-nearest-half-line: true;
@@ -12,77 +9,76 @@ $round-to-nearest-half-line: true;
 @include establish-baseline;
 
 html {
-	color: #4e5758;
-	//@include baseline-grid-background(11px, lighten($cyb-blue,55%));
+	color: #222;
 }
 body { 
-	font-family:$sans-serif;
-	position:relative;
+	font-family: $sans-serif;
+	position: relative;
 }
 
 h1, .h1 {
-	@include adjust-font-size-to(24px);
-	margin:0 auto rhythm(1,24px);
+	@include font-size(36px);
+	margin: 0 auto rhythm(1,36px);
 }
 h2, .h2 {
-	@include adjust-font-size-to(21px);
-	margin:rhythm(1.5,21px) auto rhythm(0.5,21px);
+	@include font-size(24px);
+	margin: rhythm(1.5,24px) auto rhythm(0.5,24px);
 }
 h3, .h3 {
-	@include adjust-font-size-to(18px);
-	margin:rhythm(1.6,18px) auto rhythm(0.4,18px);
+	@include font-size(18px);
+	margin: rhythm(1.6,18px) auto rhythm(0.4,18px);
 }
 h4, .h4 {
-	@include adjust-font-size-to(16px);
-	margin:rhythm(1.75) auto rhythm(0.25);
+	@include font-size(16px);
+	margin: rhythm(1.75) auto rhythm(0.25);
 }
 p {
-	margin:0 auto rhythm(1);
+	margin: 0 auto rhythm(1);
 }
 a {
-	color:$cyb-blue;
-	text-decoration:underline;
+	color: $link-color;
+	text-decoration: underline;
 	@include transition(color 0.2s ease);
 
 	&:hover {
-		text-decoration:none;
-		color:lighten($cyb-blue,30);
+		text-decoration: none;
+		color: lighten($link-color,30);
 	}
 }
 ul, ol {
-	margin:0 0 rhythm(1,14px);
+	margin: 0 0 rhythm(1);
 
 	ul, ol {
-		margin:0;
+		margin: 0;
 	}
 }
 blockquote {
-	@include adjust-font-size-to(24px);
-	font-family:$serif;
-	padding:rhythm(2,24px);
-	margin:0 auto rhythm(1,24px);
+	@include font-size(24px);
+	font-family: $serif;
+	padding: rhythm(2,24px);
+	margin: 0 auto rhythm(1,24px);
 }
 table {
-	width:100%;
-	margin:0 auto rhythm(1);
-	//@include alternating-rows-and-columns(#fff, $mtc-ltgreen, inherit);
+	width: 100%;
+	margin: 0 auto rhythm(1);
 }
 tbody {
-	border:none;
-}
-tr {
-
+	border: none;
 }
 th {
-	text-align:left;
-	text-transform:uppercase;
-	padding:0 1em;
-	border:none;
+	text-align: left;
+	text-transform: uppercase;
+	padding: 0 1em;
+	border: none;
 }
 td {
-	padding:10px 1em 11px;
-	border-bottom:1px solid #fff;
+	padding: 10px 1em 11px;
+	border-bottom: 1px solid #fff;
 }
 img {
-	margin-bottom:rhythm(1);
+	margin-bottom: rhythm(1);
+}
+.intro {
+	@include font-size(18px);
+	@include background-image(logo);
 }

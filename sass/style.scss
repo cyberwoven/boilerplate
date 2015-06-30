@@ -1,16 +1,15 @@
 // Libraries
-@import "compass/css3";
+@import "bourbon";
 
 // Global variables and mixins
 @import "modules/variables";
 @import "modules/mixins";
+@import "modules/vertical_rhythm";
 
 // Partials
 @import "partials/normalize";
 @import "partials/base";
 @import "partials/typography";
-
-//Vendor
 
 
 // Print

@@ -2,7 +2,7 @@
 	Boilerplate
 ========================================================================== */
 
-*, *:before, *:after { @include box-sizing(border-box); }
+*, *:before, *:after { box-sizing: border-box; }
 
 ::-moz-selection {
 	background: #b3d4fc;
