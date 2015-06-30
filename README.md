@@ -19,7 +19,7 @@ Front-End boilerplate for new web projects using SASS.
 
 * Remove Compass dependencies
 * Switch to libsass for Sass compliation.
-* Add Bourbon mixin library ([http://bourbon.io/docs/]http://bourbon.io/docs/).
+* Add Bourbon mixin library (http://bourbon.io/docs/).
 * Update mixins to be more extensible.
 * Include vertical rhythm replacement mixins.
 * Update HTML for increased accessibility.
