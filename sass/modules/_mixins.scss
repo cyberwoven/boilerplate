@@ -23,13 +23,6 @@ $media-feature: 'min-width' !default;
 	&:after { content: ""; display: table; clear: both; }
 }
 
-// Cross-browser opacity
-@mixin opacity($trans) {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=#{$trans * 100})";
-    filter: alpha(opacity=#{$trans * 100});
-    opacity: $trans;
-}
-
 // Placeholder styling
 @mixin placeholder {
     $placeholders: ":-webkit-input" ":-moz" "-moz" "-ms-input";
@@ -52,19 +45,5 @@ $media-feature: 'min-width' !default;
     @else {
         -webkit-font-smoothing: subpixel-antialiased;
         -moz-osx-font-smoothing: auto;
-    }
-}
-
-// SVG background image with PNG fallback
-//   Usage: 
-//   @include background-image(logo);
-//   @include background-image(logo, 180px 60px);
-$image-path: '../img' !default;
-$fallback-extension: 'png' !default;
-@mixin background-image($name, $size:false){
-    background: url(#{$image-path}/#{$name}.#{$fallback-extension}) no-repeat 0 0;
-    background-image: linear-gradient(transparent,transparent),url(#{$image-path}/#{$name}.svg);
-    @if($size){
-        background-size: $size;
     }
 }

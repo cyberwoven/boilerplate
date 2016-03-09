@@ -4,23 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Website Title</title>
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="shortcut icon" href="favicon.ico">
 
     <link href="css/style.css" rel="stylesheet">
-
-    <!--[if lt IE 9]>
-        <script src="js/vendor/html5shiv.js"></script>
-        <script src="js/vendor/respond.min.js"></script>
-    <![endif]-->
 </head>
 <body>
-<!--[if lt IE 8]>
-    <p class="browserupgrade">You are using an <strong>unsupported</strong> browser. Please <a href="http://www.whatbrowser.org/">upgrade your browser</a> to improve your experience.</p>
-<![endif]-->
 
 <header class="siteHeader" role="banner">
     <a href="#mainContent" class="visuallyhidden">Skip to content</a>
@@ -30,21 +21,25 @@
     <nav role="navigation" class="siteNavigation" id="siteNavigation" aria-label="Primary">
 
         <h4 class="visuallyhidden">Navigation</h4>
-        <ul class="mainNavigation">
-            <li><a href="">About</a></li>
-            <li><a href="">Programs</a></li>
-            <li><a href="">Events</a></li>
-            <li><a href="">News</a></li>
-            <li><a href="">Contact Us</a></li>
-        </ul> <!-- /.mainNavigation -->
-
-        <ul class="headerNavigation">
-            <li><a href="">About</a></li>
-            <li><a href="">Programs</a></li>
-            <li><a href="">Events</a></li>
-            <li><a href="">News</a></li>
-            <li><a href="">Contact Us</a></li>
-        </ul> <!-- /.headerNavigation -->
+        <div class="mainNavigation">
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Programs</a></li>
+                <li><a href="">Events</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div> <!-- /.mainNavigation -->
+    
+        <div class="headerNavigation">
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Programs</a></li>
+                <li><a href="">Events</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul> 
+        </div> <!-- /.headerNavigation -->
 
         <div class="siteSearch">
             <label for="search">Search</label>
@@ -145,12 +140,6 @@
             </ul>
         </nav>
 
-        <aside class="sidebarAside">
-            <h2><a href="">Staff Directory</a></h2>
-            <p>Contact CompanyName for more information.</p>
-            <a href="" class="asideLink">Read More &raquo;</a>
-        </aside>
-
     </div> <!-- /.sidebar -->
 
 </section> <!-- /.mainContent -->
@@ -166,22 +155,24 @@
         <input type="submit" value="Submit" class="newsletterSubmit">
     </div>
 
-    <ul class="footerNav">
-        <li><a href="">About</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">Sitemap</a></li>
-        <li><a href="">Legal</a></li>
-    </ul>
+    <nav class="footerNav">
+        <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Sitemap</a></li>
+            <li><a href="">Legal</a></li>
+        </ul>
+    </nav>
 
-    <p>&copy; 2015 Website Name</p>
+    <p class="copyright">&copy; 2016 Website Name</p>
     <p><a href="http://www.cyberwoven.com" class="cyberwoven" rel="external">Website by <span>Cyberwoven</span></a></p>
 
 </footer> <!-- /.siteFooter -->
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-2.2.1.min.js"><\/script>')</script>
 
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>

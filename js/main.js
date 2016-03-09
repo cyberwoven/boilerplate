@@ -1,4 +1,4 @@
-$(document).ready(function(){
+jQuery(document).ready(function($){
 
 	// Menu plus icons
 	$('.mainNavigation li ul').siblings('a').addClass('hasChildren').before('<a class="plus" href="#" />');

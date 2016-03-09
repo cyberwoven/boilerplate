@@ -2,38 +2,34 @@
 	Typography
 ========================================================================== */
 
-$base-font-size: 16px;
-$base-line-height: 24px;
-$round-to-nearest-half-line: true;
-
-@include establish-baseline;
-
 html {
 	color: #222;
 }
 body { 
 	font-family: $sans-serif;
 	position: relative;
+	font-size: 16px;
+	line-height: 1.5;
 }
 
 h1, .h1 {
-	@include font-size(36px);
-	margin: 0 auto rhythm(1,36px);
+	font-size: 2.25em;
+	margin: 0 auto 24px;
 }
 h2, .h2 {
-	@include font-size(24px);
-	margin: rhythm(1.5,24px) auto rhythm(0.5,24px);
+	font-weight: 400;
+	margin: 36px auto 12px;
 }
 h3, .h3 {
-	@include font-size(18px);
-	margin: rhythm(1.6,18px) auto rhythm(0.4,18px);
+	font-size: 1.125em;
+	margin: 38px auto 10px;
 }
 h4, .h4 {
-	@include font-size(16px);
-	margin: rhythm(1.75) auto rhythm(0.25);
+	font-size: 1em;
+	margin: 40px auto 4px;
 }
 p {
-	margin: 0 auto rhythm(1);
+	margin: 0 auto 24px;
 }
 a {
 	color: $link-color;
@@ -46,21 +42,21 @@ a {
 	}
 }
 ul, ol {
-	margin: 0 0 rhythm(1);
+	margin: 0 0 24px;
 
 	ul, ol {
 		margin: 0;
 	}
 }
 blockquote {
-	@include font-size(24px);
+	font-size: 1.125em;
 	font-family: $serif;
-	padding: rhythm(2,24px);
-	margin: 0 auto rhythm(1,24px);
+	padding: 24px;
+	margin: 0 auto 24px;
 }
 table {
 	width: 100%;
-	margin: 0 auto rhythm(1);
+	margin: 0 auto 24px;
 }
 tbody {
 	border: none;
@@ -76,9 +72,8 @@ td {
 	border-bottom: 1px solid #fff;
 }
 img {
-	margin-bottom: rhythm(1);
+	margin-bottom: 24px;
 }
 .intro {
-	@include font-size(18px);
-	@include background-image(logo);
+	font-size: 1.125em;
 }
