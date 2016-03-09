@@ -10,6 +10,9 @@ $(document).ready(function(){
 	});
 
 	// Open links with rel="external" in new window
-    $('a[rel="external"]').on("click",function(){window.open($(this).attr('href'));e.preventDefault();});
+    $('a[rel="external"]').on("click",function(e){
+    	window.open($(this).attr('href'));
+    	e.preventDefault();
+    });
 
 });
