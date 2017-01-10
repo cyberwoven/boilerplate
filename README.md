@@ -16,6 +16,9 @@ Front-End boilerplate for new web projects using SASS.
 * "Delete-key friendly." Strip out parts you don't need.
 
 
+### January 10, 2017
+* Added triangle sass mixin. (http://codepen.io/vieron/pen/xuHDA)
+
 ### March 9, 2016
 
 * Dropped IE9 support, archived previous version. (https://github.com/cyberwoven/boilerplate/tree/ie9-support)
