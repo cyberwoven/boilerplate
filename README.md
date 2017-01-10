@@ -17,7 +17,7 @@ Front-End boilerplate for new web projects using SASS.
 
 
 ### January 10, 2017
-* Added triangle sass mixin. (http://codepen.io/vieron/pen/xuHDA)
+* Added triangle sass mixin. (http://codepen.io/iMarkup/pen/wBqjVO)
 
 ### March 9, 2016
 
