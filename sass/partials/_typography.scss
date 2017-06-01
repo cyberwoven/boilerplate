@@ -4,7 +4,9 @@
 
 html {
 	color: #222;
+	background-color: transparent;
 }
+
 body { 
 	font-family: $sans-serif;
 	position: relative;
@@ -12,27 +14,37 @@ body {
 	line-height: 1.5;
 }
 
-h1, .h1 {
+h1,
+.h1 {
 	font-size: 2.25em;
 	margin: 0 auto 24px;
 }
-h2, .h2 {
+
+h2,
+.h2 {
 	font-weight: 400;
 	margin: 36px auto 12px;
 }
-h3, .h3 {
+
+h3,
+.h3 {
 	font-size: 1.125em;
 	margin: 38px auto 10px;
 }
-h4, .h4 {
+
+h4,
+.h4 {
 	font-size: 1em;
 	margin: 40px auto 4px;
 }
+
 p {
 	margin: 0 auto 24px;
 }
+
 a {
 	color: $link-color;
+	background-color: transparent;
 	text-decoration: underline;
 	@include transition(color 0.2s ease);
 
@@ -41,6 +53,7 @@ a {
 		color: lighten($link-color,30);
 	}
 }
+
 ul, ol {
 	margin: 0 0 24px;
 
@@ -48,32 +61,63 @@ ul, ol {
 		margin: 0;
 	}
 }
+
 blockquote {
 	font-size: 1.125em;
 	font-family: $serif;
 	padding: 24px;
 	margin: 0 auto 24px;
 }
+
 table {
 	width: 100%;
 	margin: 0 auto 24px;
 }
+
 tbody {
 	border: none;
 }
+
 th {
 	text-align: left;
 	text-transform: uppercase;
 	padding: 0 1em;
 	border: none;
 }
+
 td {
 	padding: 10px 1em 11px;
 	border-bottom: 1px solid #fff;
 }
+
+.swipeAction {
+	background: #333;
+	color: #fff;
+	line-height: 40px;
+	padding: 0 10px;
+	position: relative;
+	text-align: center;
+}
+ 
+.tableWrapper {
+	overflow: scroll;
+}
+
 img {
 	margin-bottom: 24px;
 }
+
+figure {
+	img {
+		margin-bottom: 14px;
+	}
+
+	figcaption {
+		font-style: italic;
+		text-align: center;
+	}
+}
+
 .intro {
 	font-size: 1.125em;
 }
