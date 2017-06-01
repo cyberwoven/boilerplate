@@ -14,5 +14,32 @@ jQuery(document).ready(function($){
     	window.open($(this).attr('href'));
     	e.preventDefault();
     });
+	
+	// Wrap select boxes in a div
+	$('.form-select').wrap("<div class='selectStyle'></div>");
+
+  function responsiveTables(){
+		$("table").each(function() {
+			var myTable = $(this);
+			var tableWidth = myTable.width();
+			var parentWidth = myTable.parent().width();
+			 
+			if ((tableWidth > parentWidth) && !myTable.hasClass('responsiveTable')) {
+				myTable.wrap('<div class="tableWrapper" />').addClass('responsiveTable');
+				myTable.parent('.tableWrapper').before('<div class="swipeAction">Swipe to View</div>');
+			}
+			else if ((tableWidth <= parentWidth) && myTable.hasClass('responsiveTable')) {
+				myTable.removeClass('responsiveTable').unwrap().siblings('.swipeAction').remove();
+			}
+		});
+	}
+
+	// Run Responsive Tables
+	responsiveTables();
+	 
+	// Run on window resizing
+	$(window).resize(function() {
+		responsiveTables();
+	});
 
 });
