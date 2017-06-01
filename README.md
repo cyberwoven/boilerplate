@@ -15,6 +15,11 @@ Front-End boilerplate for new web projects using SASS.
 * Mixins for inline media queries, placeholders, and more.
 * "Delete-key friendly." Strip out parts you don't need.
 
+### June 1, 2017
+* Switched to jQuery version 3.2.1.
+* Updated normalize to version 7.0.0.
+* Moved normalize and base partials to vendor folder.
+* Added responsive tables function and styles. (http://kb.lamp.cyberwoven.local/responsive-tables/)
 
 ### January 10, 2017
 * Added triangle sass mixin. (http://codepen.io/iMarkup/pen/wBqjVO)
