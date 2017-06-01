@@ -6,10 +6,11 @@
 @import "modules/mixins";
 
 // Partials
-@import "partials/normalize";
-@import "partials/base";
 @import "partials/typography";
 
+//Vendor
+@import "vendor/normalize";
+@import "vendor/base";
 
 // Print
 @media print {
